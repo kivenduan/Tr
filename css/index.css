@@ -1,0 +1,415 @@
+.container{
+	width:100%;
+}
+h3{
+	font-weight: 400;
+	font-size: 24px;
+}
+p, span{
+	text-align: center;
+	font-size: 18px;
+}
+i{
+	font-size: 25px;
+	color: red;
+}
+ul li{
+	cursor: pointer;
+}
+.header{
+	width: 100%;
+	height: 80px;
+	background: #fff;
+}
+.nav{
+	width: 1000px;
+	line-height: 80px;
+	margin: 0 auto;
+}
+.logo{
+	float: left;
+}
+.navinfo{
+	float: right;
+}
+.navinfo ul li{
+	float: left;
+	margin: 0 20px;
+	font-size: 18px;
+	font-weight: 700;
+}
+.navinfo ul li a{
+	display: block;
+	height: 80px;
+}
+.navinfo ul .on a{
+	color:red;
+	border-bottom:2px solid orangered;
+	
+}
+.foerd{
+	width: 1000px;
+	margin: 0 auto;
+	height: 56px;
+	background: #F8F8F8;
+}
+.wallet{
+    width:1000px;
+   
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.personInfo{
+	height: 172px;
+	overflow: hidden;
+}
+
+.personInfo .h_b{
+	height: 172px;
+	 background-color: #fff;
+}
+.personInfo .user{
+    width: 416px;
+    float: left;
+    line-height: 172px;
+   
+}
+
+.personInfo .user .usericon{
+    margin-left: 28px;
+    float: left;
+}
+
+.personInfo .user .username{
+	line-height: 30px;
+    float: left;
+    padding-left: 36px;
+}
+.personInfo .user .username h3{
+	padding-top: 30px;
+	line-height: 72px;
+	
+}
+.personInfo .user .username span{
+	display: block;
+	font-size: 18px;
+}
+.personInfo .allmoney{
+	float: left;
+	padding-top: 30px;
+	border-left: 15px solid #eeeeee;
+	border-right: 1px solid #eeeeee;
+	width: 240px;
+	overflow: hidden;
+}
+.personInfo .usermoney{
+	float: left;
+	width: 328px;
+	padding-top: 30px;
+}
+.personInfo .allmoney p,.usermoney p{
+	text-align: center;
+	line-height: 58px;
+}
+.personInfo .usermoney span{
+	display: block;
+	height: 26px;
+	cursor: pointer;
+	margin: -5px 0 0 288px;
+}
+
+.lists ul{
+	width: 1100px;
+}
+.lists ul li{
+	margin-top: 15px;
+	float: left;
+	display: inline-block;
+	width: 324px;
+	height: 170px;
+	background: #fff;
+	line-height: 170px;
+	border-right: 15px solid #f4f4f4;
+}
+.lists ul li .imgbox{
+	margin-left: 18px;
+    float: left;
+}
+.lists ul li .list{
+	padding-top: 40px;
+	line-height: 50px;
+	width: 156px;
+	margin-left: 15px;
+    float: left;
+   
+}
+.lists ul li .list p{
+	text-align: left;
+	font-size: 14px;
+	line-height: 20px;
+	color: #aaaaaa;
+}
+/*record*/
+.record .tit{
+	margin-top: 15px;
+	width:1000px;
+	height: 50px;
+	background: #f8f8f8;
+}
+.record .tit p{
+	padding-top:15px ;
+}
+.record .tit p:first-child{
+	padding-left: 18px;
+	float: left;
+}
+.record .tit p:last-child{
+	padding-right: 18px;
+	float: right;
+	color: #40a7d2;
+}
+.record_list{
+	height: 50px;
+	line-height: 50px;
+	padding-left: 18px;
+	background: #fff;
+	border-top: 1px solid #ecebeb;
+	border-bottom: 1px solid #ecebeb;
+	
+}
+.record_list span{
+	text-align: left;
+	border-bottom: 1px solid #ecebeb;
+
+}
+.record ul li{
+	padding-left: 18px;
+	background: #fff;
+	border-bottom: 1px solid #ecebeb;
+	
+}
+.record ul li span{
+	height: 50px;
+	line-height: 50px;
+	font-size: 16px;
+	text-align: left;
+	
+}
+.select{
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.select .record_seach{
+	padding: 28px 18px 50px 18px;
+	background: #FFF;
+}
+.select .record_seach p{
+	display: inline-block;
+	text-align: left;
+}
+.select .record_seach input{
+	height: 30px;
+	margin-right:40px ;
+}
+.select .record_seach a{
+	display:inline-block;
+	height: 30px;
+	width: 100px;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 3px;
+	color: #FFF;
+	font-size: 18px;
+	background: #ff4431;
+	
+}
+
+.select .btn{
+	height: 170px;
+	background: #fff;
+	line-height: 170px;
+	text-align: center;
+}
+.select .btn a{
+	display: inline-block;
+	width: 34px;
+	height: 34px;
+	line-height: 34px;
+	color:#b0b0b0 ;
+	margin: 0 5px;
+	border: 1px solid #ecebeb;
+	font-size: 18px;
+}
+.select .btn a img{
+	padding-bottom: 5px;
+}
+ .setpaw{
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+
+}
+.safecenter{
+	position: relative;
+	height: 600px;
+	background: url(../images/safecenter.png) no-repeat -276px -74px;
+}
+.safecenter a{
+	display: block;
+	position: absolute;
+	top:135px;
+	right: 276px;
+	background: #FFF;
+	
+	padding-bottom: 30px;
+	color: #3278B3;
+	text-decoration:underline;
+	font-size: 20px;
+}
+.setpaw .tit{
+	margin-top: 15px;
+	padding-left:18px ;
+	height: 40px;
+	line-height: 40px;
+	background: #f8f8f8;
+	
+}
+.setpaw .tit p{
+	text-align: left;
+}
+.setpaw .tit p span{
+	color: red;
+}
+.setpaw .verification{
+	text-align:center ;
+	padding-top:20px ;
+	padding-right:330px ;
+	background: #FFF;
+}
+.setpaw .verification p{
+	clear: both;
+	line-height:34px ;
+	text-align: right;
+	margin-top: 28px;
+}	
+.setpaw .verification input{
+	float: right;
+	width: 320px;
+	height: 34px;
+}
+.setpaw .btn{
+	height: 170px;
+	line-height: 170px;
+	text-align: center;
+	background: #FFF;
+}
+.setpaw .btn a{
+	display:inline-block;
+	height: 30px;
+	width: 100px;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 3px;
+	color: #FFF;
+	font-size: 18px;
+	background: #ff4431;
+}
+.cz{
+	width: 100%;
+	height:600px;
+	background: url(../images/cz.png) no-repeat -276px -74px;
+	position: relative;
+}
+.cz #zffas{
+	position: absolute;
+	top:154px;
+	left: 530px;
+	width: 300px;
+	line-height: 100px;
+}
+.cz #zffas p{
+	margin-bottom: 80px;
+	width: 25px;
+	height: 22px;
+	background: url(../images/allbgs.png) no-repeat 0 0;
+}
+.cz #czje {
+	position: absolute;
+	top: 350px;
+	left: 510px;
+	;
+}
+.cz #czje input{
+	float: left;
+	width: 315px;
+	height: 28px;
+}
+.cz #czje span{
+	float: left;
+	width: 113px;
+	height: 34px;
+	background: #FFF;
+}
+.cz #pay{
+	position: absolute;
+	top: 462px;
+	left: 606px;
+	border-bottom: 13px solid #FFF;
+	line-height :38px;
+	text-align: center;
+	color: #FFF;
+    width:136px;
+    height: 38px;
+    margin-bottom: 12px;
+    background: #ff4431;	
+} 
+.tx{
+	width: 100%;
+	height:600px;
+	background: url(../images/tix.png) no-repeat -276px -74px;
+	position: relative;
+}
+.tx #tx_box{
+	position: absolute;
+	top:226px;
+	left: 518px;
+}
+.tx #tx_box input{
+	margin-top: 30px;
+	width: 314px;
+	height: 30px;
+}
+#tx_tx{
+	position: absolute;
+	top: 562px;
+	left: 606px;
+	border-bottom: 13px solid #FFF;
+	line-height :38px;
+	text-align: center;
+	color: #FFF;
+    width:136px;
+    height: 38px;
+    margin-bottom: 12px;
+    background: #ff4431;	
+} 
+.cods{
+	width: 100%;
+	height:600px;
+	background: url(../images/mycods.png) no-repeat -276px -74px;
+	position: relative;
+}
+.czcg a{
+	position: absolute;
+	top: 296px;
+	left: 606px;
+	border-bottom: 13px solid #FFF;
+	line-height :38px;
+	text-align: center;
+	color: #FFF;
+    width:136px;
+    height: 38px;
+    margin-bottom: 12px;
+    background: #ff4431;	
+}

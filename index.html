@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app="app" ng-controller="MainCtrl">
+
+	<head>
+		<meta charset="UTF-8">
+		<title ng-bind="webtitle"></title>
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<script src="js/libs/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/libs/angular.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/libs/angular-route.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/app.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/ctrl/loginCtrl.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/ctrl/wallerCtrl.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/ctrl/selectCtrl.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/ctrl/safecenterCtrl.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/ctrl/czCtrl.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/ctrl/Setpaw.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/ctrl/txCtrl.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/ctrl/codsCtrl.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/ctrl/czcgCtrl.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="header clearfix">
+				<div class="nav">
+					<div class="logo">
+						<img src="images/tiaorong_logo.png"/>
+					</div>
+					<div class="navinfo">
+						<ul>
+							<li class="on"><a href="#wallet">我的钱包</a></li>
+							<li><a href="#select">交易查询</a></li>
+							<li><a href="#safecenter">安全中心</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+		<div ng-view=""></div>
+		</div>
+		 <div class="foerd"></div>
+	</body>
+</html>

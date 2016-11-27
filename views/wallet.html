@@ -1,0 +1,113 @@
+<div class="wallet">
+	 <div class="personInfo clearfix">
+        <div class="user h_b">
+            <div class="usericon">
+                <img src="images/index_toux.png" alt="icon">
+            </div>
+            <div class="username">
+                <h3>Hi:{{username}}</h3>
+                <span>欢迎来到天荣钱包</span>
+            </div>
+        </div>
+        <div class="allmoney h_b">
+            <p>我的总资产</p>
+            <p> <i>¥ {{money}}.00</i><i style="display: none;color: #000000;">***</i></p>
+        </div>
+        <div class="usermoney h_b">
+        	<p>可用余额  <i>¥ {{usemoney}}.00</i><i style="display: none;color: #000000;">***</i></p>
+        	<p>提现中 <i>¥ {{tx}}.00</i><i style="display: none;color: #000000;">***</i></p>
+        	<span><img src="images/ye_03.png" title="点击隐藏"/></span>
+        </div>
+    </div>
+    
+    <div class="lists clearfix">
+    	<ul>
+    		<li >
+    			<a href="#cz">
+    				<div class="imgbox">
+    				<img src="images/cb_08.png"  />
+    			</div>
+    			<div class="list">
+    				<h3>充值</h3>
+    				<p>余额不足了，快来充值吧！</p>
+    			</div>
+    			</a>
+    		</li>
+    		<li>
+    			<a href="#tx">
+    				<div class="imgbox">
+    				<img src="images/cb_03.png"  />
+    			</div>
+    			<div class="list">
+    				<h3>提现</h3>
+    				<p>想使用现金时，可以吧余额里面的钱提取到银行卡里哦！</p>
+    			</div>
+    			</a>
+    		</li>
+    		<li>
+    			<a href="#cods">
+    				<div class="imgbox">
+    				<img src="images/cb_05.png"  />
+    			</div>
+    			<div class="list">
+    				<h3>我的银行卡</h3>
+    				<p>进入我的银行卡，可进行银行卡管理哦！</p>
+    			</div>
+    			</a>
+    		</li>
+    		<li>
+    			<div class="imgbox">
+    				<img src="images/cb_17.png"  />
+    			</div>
+    			<div class="list">
+    				<h3>账单</h3>
+    				<p>交易信息查询，可以查询到您所有的交易信息！</p>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="imgbox">
+    				<img src="images/cb_13.png"  />
+    			</div>
+    			<div class="list">
+    				<h3>企帮币</h3>
+    				<p>赶快查看您的企帮币交易记录吧！</p>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="imgbox">
+    				<img src="images/cb_14.png"  />
+    			</div>
+    			<div class="list">
+    				<h3>天荣币</h3>
+    				<p>天荣币和关爱币的比例是1：1，赶快脱换成关爱币吧！</p>
+    			</div>
+    		</li>
+    	</ul>
+    </div>
+    
+    <div class="record">
+    	<div class="tit clearfix">
+    		<p>近期交易记录</p>
+    		<p>查看详情</p>
+    	</div>
+    	<div class="record_list">
+    		<span style=" display: inline-block; width: 200px;">交易时间</span>
+    		<span style="display: inline-block;width: 300px;">名称</span>
+    		<span style="display: inline-block;width: 228px;">订单号</span>
+    		<span style="display: inline-block;width: 168px;">交易金额</span>
+    		<span style="display: inline-block;width: 66px;">状态</span>
+    		
+    	</div>
+    	<ul>
+    		<li ng-repeat="jyxx in jyxxs">
+    		<span style=" display: inline-block; width: 200px;">{{jyxx.time}}</span>
+    		<span style="display: inline-block;width: 300px;">{{jyxx.name}}</span>
+    		<span style="display: inline-block;width: 228px;">{{jyxx.num}}</span>
+    		<span style="display: inline-block;width: 168px;">{{jyxx.sum}}</span>
+    		<span style="display: inline-block;width: 66px;">{{jyxx.state}}</span>
+    		</li>
+    	</ul>
+    </div>
+    
+   
+</div>
